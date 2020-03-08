@@ -6,7 +6,7 @@ function fruitShop(input) {
 
     let price = 0;
 
-    if (days === "Monday" || days === "Tuesday" || days === "Wednesday" || days === " Thursday" || days === "Friday") {
+    if (days === "Monday" || days === "Tuesday" || days === "Wednesday" || days === "Thursday" || days === "Friday") {
 
         if (fruit === "banana") {
             price = 2.50;
@@ -53,4 +53,4 @@ function fruitShop(input) {
 
 }
 
-fruitShop(["tomato", "Monday", 0.5]);
+fruitShop(["apple", "Monday", 0.5]);
