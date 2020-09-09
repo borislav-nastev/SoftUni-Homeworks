@@ -1,0 +1,18 @@
+<div class="container">
+    {{> header}}
+    {{#if hasNoTeam}}
+        {{#unless isMember}}
+        <a href="#/create" class="btn btn-default">Create Team</a>
+        {{else}}
+        <span>You are member to team!</span>
+        {{/unless}}
+    {{/if}}
+    <h1>Catalog Page</h1>
+    <div>
+        {{#each teams}}
+        {{> team}}
+        {{/each}}
+    </div>
+</div>
+
+{{> footer}}
